@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Balatro;
+    src: url('Balatro.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+body {
+  background-image: url('Balatro.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Balatro';
+  color: white;
+  margin: 0px;
+}
+h1{
+    text-align: center
+}
+
+/* this css here is for the navigation bar and the submenus in them */
+
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: lightgray;
+}
+.navbar li{
+    float: left;
+}
+.navbar li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li ul li{
+    float: none;
+}
+.navbar li:hover ul{
+    display: block;
+}
+/* this is literally just for the word polychrome lol */
+.animated-rainbow-text {
+    background: linear-gradient(to right, red, rgb(255, 136, 0), yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 10s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
+
+/* each of these are for a unique ante 8 showdown boss blind */ 
+
+  .animated-blind1-text {
+    background: linear-gradient(to right, rgb(255, 136, 0), gold, yellow, gold, rgb(255, 136, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 7.43s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
+  .animated-blind2-text {
+    background: linear-gradient(to right, rgb(0, 99, 0), rgb(47, 194, 2), rgb(51, 255, 0), rgb(0, 136, 0), rgb(0, 99, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 7.1s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
+.animated-blind3-text {
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(196, 0, 0), rgb(139, 0, 0), rgb(197, 0, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 7.25s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
+  .animated-blind4-text {
+    background: linear-gradient(to right, rgb(153, 0, 255), rgb(117, 0, 196),rgb(75, 0, 126),rgb(117, 0, 196),rgb(153, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 7.5s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
+  .animated-blind5-text {
+    background: linear-gradient(to right, rgb(0, 89, 255),rgb(0, 62, 177),rgb(0, 39, 112),rgb(0, 62, 177),rgb(0, 89, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30pt;
+    font-weight: bold;
+    background-size: 400% 100%;
+    animation: rainbow_animation 7s linear infinite;
+  }
+  @keyframes rainbow_animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+  }
